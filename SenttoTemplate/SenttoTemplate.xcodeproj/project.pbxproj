@@ -1,0 +1,541 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A404A8AC1BC6A1AE0067F6E8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A404A8AB1BC6A1AE0067F6E8 /* main.m */; };
+		A404A8AF1BC6A1AE0067F6E8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A404A8AE1BC6A1AE0067F6E8 /* AppDelegate.m */; };
+		A404A8B51BC6A1AE0067F6E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A404A8B31BC6A1AE0067F6E8 /* Main.storyboard */; };
+		A404A8B71BC6A1AE0067F6E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A404A8B61BC6A1AE0067F6E8 /* Assets.xcassets */; };
+		A404A8BA1BC6A1AE0067F6E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A404A8B81BC6A1AE0067F6E8 /* LaunchScreen.storyboard */; };
+		A404A8C51BC6A1AE0067F6E8 /* SenttoTemplateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A404A8C41BC6A1AE0067F6E8 /* SenttoTemplateTests.m */; };
+		A404A8D01BC6A1AE0067F6E8 /* SenttoTemplateUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A404A8CF1BC6A1AE0067F6E8 /* SenttoTemplateUITests.m */; };
+		A404A8E91BC6A3050067F6E8 /* SenttoTemplateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A404A8E81BC6A3050067F6E8 /* SenttoTemplateViewController.m */; settings = {ASSET_TAGS = (); }; };
+		A404A8EC1BC6A3190067F6E8 /* NameListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A404A8EB1BC6A3190067F6E8 /* NameListTableViewController.m */; settings = {ASSET_TAGS = (); }; };
+		A404A8EF1BC6A3E70067F6E8 /* AppItemTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A404A8EE1BC6A3E70067F6E8 /* AppItemTableViewController.m */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A404A8C11BC6A1AE0067F6E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A404A89F1BC6A1AE0067F6E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A404A8A61BC6A1AE0067F6E8;
+			remoteInfo = SenttoTemplate;
+		};
+		A404A8CC1BC6A1AE0067F6E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A404A89F1BC6A1AE0067F6E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A404A8A61BC6A1AE0067F6E8;
+			remoteInfo = SenttoTemplate;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A404A8A71BC6A1AE0067F6E8 /* SenttoTemplate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SenttoTemplate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A404A8AB1BC6A1AE0067F6E8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A404A8AD1BC6A1AE0067F6E8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A404A8AE1BC6A1AE0067F6E8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A404A8B41BC6A1AE0067F6E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A404A8B61BC6A1AE0067F6E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A404A8B91BC6A1AE0067F6E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A404A8BB1BC6A1AE0067F6E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A404A8C01BC6A1AE0067F6E8 /* SenttoTemplateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SenttoTemplateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A404A8C41BC6A1AE0067F6E8 /* SenttoTemplateTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SenttoTemplateTests.m; sourceTree = "<group>"; };
+		A404A8C61BC6A1AE0067F6E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A404A8CB1BC6A1AE0067F6E8 /* SenttoTemplateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SenttoTemplateUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A404A8CF1BC6A1AE0067F6E8 /* SenttoTemplateUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SenttoTemplateUITests.m; sourceTree = "<group>"; };
+		A404A8D11BC6A1AE0067F6E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A404A8E71BC6A3050067F6E8 /* SenttoTemplateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SenttoTemplateViewController.h; sourceTree = "<group>"; };
+		A404A8E81BC6A3050067F6E8 /* SenttoTemplateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SenttoTemplateViewController.m; sourceTree = "<group>"; };
+		A404A8EA1BC6A3190067F6E8 /* NameListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NameListTableViewController.h; sourceTree = "<group>"; };
+		A404A8EB1BC6A3190067F6E8 /* NameListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NameListTableViewController.m; sourceTree = "<group>"; };
+		A404A8ED1BC6A3E70067F6E8 /* AppItemTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppItemTableViewController.h; path = SoftwareGroup/AppItemTableViewController.h; sourceTree = "<group>"; };
+		A404A8EE1BC6A3E70067F6E8 /* AppItemTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppItemTableViewController.m; path = SoftwareGroup/AppItemTableViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A404A8A41BC6A1AE0067F6E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A404A8BD1BC6A1AE0067F6E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A404A8C81BC6A1AE0067F6E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A404A89E1BC6A1AE0067F6E8 = {
+			isa = PBXGroup;
+			children = (
+				A404A8A91BC6A1AE0067F6E8 /* SenttoTemplate */,
+				A404A8C31BC6A1AE0067F6E8 /* SenttoTemplateTests */,
+				A404A8CE1BC6A1AE0067F6E8 /* SenttoTemplateUITests */,
+				A404A8A81BC6A1AE0067F6E8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A404A8A81BC6A1AE0067F6E8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A404A8A71BC6A1AE0067F6E8 /* SenttoTemplate.app */,
+				A404A8C01BC6A1AE0067F6E8 /* SenttoTemplateTests.xctest */,
+				A404A8CB1BC6A1AE0067F6E8 /* SenttoTemplateUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A404A8A91BC6A1AE0067F6E8 /* SenttoTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				A404A8AD1BC6A1AE0067F6E8 /* AppDelegate.h */,
+				A404A8AE1BC6A1AE0067F6E8 /* AppDelegate.m */,
+				A404A8E71BC6A3050067F6E8 /* SenttoTemplateViewController.h */,
+				A404A8E81BC6A3050067F6E8 /* SenttoTemplateViewController.m */,
+				A404A8EA1BC6A3190067F6E8 /* NameListTableViewController.h */,
+				A404A8EB1BC6A3190067F6E8 /* NameListTableViewController.m */,
+				A404A8E61BC6A2940067F6E8 /* SoftwareGroup */,
+				A404A8B31BC6A1AE0067F6E8 /* Main.storyboard */,
+				A404A8B61BC6A1AE0067F6E8 /* Assets.xcassets */,
+				A404A8B81BC6A1AE0067F6E8 /* LaunchScreen.storyboard */,
+				A404A8BB1BC6A1AE0067F6E8 /* Info.plist */,
+				A404A8AA1BC6A1AE0067F6E8 /* Supporting Files */,
+			);
+			path = SenttoTemplate;
+			sourceTree = "<group>";
+		};
+		A404A8AA1BC6A1AE0067F6E8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A404A8AB1BC6A1AE0067F6E8 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A404A8C31BC6A1AE0067F6E8 /* SenttoTemplateTests */ = {
+			isa = PBXGroup;
+			children = (
+				A404A8C41BC6A1AE0067F6E8 /* SenttoTemplateTests.m */,
+				A404A8C61BC6A1AE0067F6E8 /* Info.plist */,
+			);
+			path = SenttoTemplateTests;
+			sourceTree = "<group>";
+		};
+		A404A8CE1BC6A1AE0067F6E8 /* SenttoTemplateUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A404A8CF1BC6A1AE0067F6E8 /* SenttoTemplateUITests.m */,
+				A404A8D11BC6A1AE0067F6E8 /* Info.plist */,
+			);
+			path = SenttoTemplateUITests;
+			sourceTree = "<group>";
+		};
+		A404A8E61BC6A2940067F6E8 /* SoftwareGroup */ = {
+			isa = PBXGroup;
+			children = (
+				A404A8ED1BC6A3E70067F6E8 /* AppItemTableViewController.h */,
+				A404A8EE1BC6A3E70067F6E8 /* AppItemTableViewController.m */,
+			);
+			name = SoftwareGroup;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A404A8A61BC6A1AE0067F6E8 /* SenttoTemplate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A404A8D41BC6A1AE0067F6E8 /* Build configuration list for PBXNativeTarget "SenttoTemplate" */;
+			buildPhases = (
+				A404A8A31BC6A1AE0067F6E8 /* Sources */,
+				A404A8A41BC6A1AE0067F6E8 /* Frameworks */,
+				A404A8A51BC6A1AE0067F6E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SenttoTemplate;
+			productName = SenttoTemplate;
+			productReference = A404A8A71BC6A1AE0067F6E8 /* SenttoTemplate.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A404A8BF1BC6A1AE0067F6E8 /* SenttoTemplateTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A404A8D71BC6A1AE0067F6E8 /* Build configuration list for PBXNativeTarget "SenttoTemplateTests" */;
+			buildPhases = (
+				A404A8BC1BC6A1AE0067F6E8 /* Sources */,
+				A404A8BD1BC6A1AE0067F6E8 /* Frameworks */,
+				A404A8BE1BC6A1AE0067F6E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A404A8C21BC6A1AE0067F6E8 /* PBXTargetDependency */,
+			);
+			name = SenttoTemplateTests;
+			productName = SenttoTemplateTests;
+			productReference = A404A8C01BC6A1AE0067F6E8 /* SenttoTemplateTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A404A8CA1BC6A1AE0067F6E8 /* SenttoTemplateUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A404A8DA1BC6A1AE0067F6E8 /* Build configuration list for PBXNativeTarget "SenttoTemplateUITests" */;
+			buildPhases = (
+				A404A8C71BC6A1AE0067F6E8 /* Sources */,
+				A404A8C81BC6A1AE0067F6E8 /* Frameworks */,
+				A404A8C91BC6A1AE0067F6E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A404A8CD1BC6A1AE0067F6E8 /* PBXTargetDependency */,
+			);
+			name = SenttoTemplateUITests;
+			productName = SenttoTemplateUITests;
+			productReference = A404A8CB1BC6A1AE0067F6E8 /* SenttoTemplateUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A404A89F1BC6A1AE0067F6E8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Sentto Labs Inc.";
+				TargetAttributes = {
+					A404A8A61BC6A1AE0067F6E8 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					A404A8BF1BC6A1AE0067F6E8 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = A404A8A61BC6A1AE0067F6E8;
+					};
+					A404A8CA1BC6A1AE0067F6E8 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = A404A8A61BC6A1AE0067F6E8;
+					};
+				};
+			};
+			buildConfigurationList = A404A8A21BC6A1AE0067F6E8 /* Build configuration list for PBXProject "SenttoTemplate" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A404A89E1BC6A1AE0067F6E8;
+			productRefGroup = A404A8A81BC6A1AE0067F6E8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A404A8A61BC6A1AE0067F6E8 /* SenttoTemplate */,
+				A404A8BF1BC6A1AE0067F6E8 /* SenttoTemplateTests */,
+				A404A8CA1BC6A1AE0067F6E8 /* SenttoTemplateUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A404A8A51BC6A1AE0067F6E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A404A8BA1BC6A1AE0067F6E8 /* LaunchScreen.storyboard in Resources */,
+				A404A8B71BC6A1AE0067F6E8 /* Assets.xcassets in Resources */,
+				A404A8B51BC6A1AE0067F6E8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A404A8BE1BC6A1AE0067F6E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A404A8C91BC6A1AE0067F6E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A404A8A31BC6A1AE0067F6E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A404A8EC1BC6A3190067F6E8 /* NameListTableViewController.m in Sources */,
+				A404A8EF1BC6A3E70067F6E8 /* AppItemTableViewController.m in Sources */,
+				A404A8AF1BC6A1AE0067F6E8 /* AppDelegate.m in Sources */,
+				A404A8E91BC6A3050067F6E8 /* SenttoTemplateViewController.m in Sources */,
+				A404A8AC1BC6A1AE0067F6E8 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A404A8BC1BC6A1AE0067F6E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A404A8C51BC6A1AE0067F6E8 /* SenttoTemplateTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A404A8C71BC6A1AE0067F6E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A404A8D01BC6A1AE0067F6E8 /* SenttoTemplateUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A404A8C21BC6A1AE0067F6E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A404A8A61BC6A1AE0067F6E8 /* SenttoTemplate */;
+			targetProxy = A404A8C11BC6A1AE0067F6E8 /* PBXContainerItemProxy */;
+		};
+		A404A8CD1BC6A1AE0067F6E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A404A8A61BC6A1AE0067F6E8 /* SenttoTemplate */;
+			targetProxy = A404A8CC1BC6A1AE0067F6E8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A404A8B31BC6A1AE0067F6E8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A404A8B41BC6A1AE0067F6E8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A404A8B81BC6A1AE0067F6E8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A404A8B91BC6A1AE0067F6E8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A404A8D21BC6A1AE0067F6E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A404A8D31BC6A1AE0067F6E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A404A8D51BC6A1AE0067F6E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SenttoTemplate/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sentto.SenttoTemplate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A404A8D61BC6A1AE0067F6E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SenttoTemplate/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sentto.SenttoTemplate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A404A8D81BC6A1AE0067F6E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SenttoTemplateTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sentto.SenttoTemplateTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SenttoTemplate.app/SenttoTemplate";
+			};
+			name = Debug;
+		};
+		A404A8D91BC6A1AE0067F6E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SenttoTemplateTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sentto.SenttoTemplateTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SenttoTemplate.app/SenttoTemplate";
+			};
+			name = Release;
+		};
+		A404A8DB1BC6A1AE0067F6E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SenttoTemplateUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sentto.SenttoTemplateUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SenttoTemplate;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		A404A8DC1BC6A1AE0067F6E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SenttoTemplateUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sentto.SenttoTemplateUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SenttoTemplate;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A404A8A21BC6A1AE0067F6E8 /* Build configuration list for PBXProject "SenttoTemplate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A404A8D21BC6A1AE0067F6E8 /* Debug */,
+				A404A8D31BC6A1AE0067F6E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A404A8D41BC6A1AE0067F6E8 /* Build configuration list for PBXNativeTarget "SenttoTemplate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A404A8D51BC6A1AE0067F6E8 /* Debug */,
+				A404A8D61BC6A1AE0067F6E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A404A8D71BC6A1AE0067F6E8 /* Build configuration list for PBXNativeTarget "SenttoTemplateTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A404A8D81BC6A1AE0067F6E8 /* Debug */,
+				A404A8D91BC6A1AE0067F6E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A404A8DA1BC6A1AE0067F6E8 /* Build configuration list for PBXNativeTarget "SenttoTemplateUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A404A8DB1BC6A1AE0067F6E8 /* Debug */,
+				A404A8DC1BC6A1AE0067F6E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A404A89F1BC6A1AE0067F6E8 /* Project object */;
+}
