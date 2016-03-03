@@ -7,3 +7,4 @@ For Tools, MySql, Linux, and others, please go to [Sentto Univeristy : Wiki](htt
 2. Every Sentto members can create issues under github/tengw and assign the issue to the problem’s owner (who can fix it), the assignee need to solve the problem,  add or update comment, and apply close issue. 
 3. In order to let other team members know your work status, please UPDATE issues (leave a comment) when the code has been updated or the bug has been fixed.
 4. The issues owner needs to verify the result of solutions before close it.
+5. For more details please take a look GitHub Guides for [Mastering Issues](https://guides.github.com/features/issues/). 
