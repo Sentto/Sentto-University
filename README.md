@@ -1,3 +1,5 @@
+ <img height = "80" src = "https://github.com/Sentto/About-Sentto/blob/master/color_logo.png" />
+
 # Sentto-University
 
 For Tools, MySql, Linux, ROS, and others, please go to [Sentto Univeristy : Wiki](https://github.com/Sentto/Sentto-University/wiki) to get more information.
